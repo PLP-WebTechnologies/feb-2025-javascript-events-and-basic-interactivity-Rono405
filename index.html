@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Playground 🎮</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>🎯 JavaScript Interactive Elements</h1>
+    </header>
+
+    <main class="container">
+
+        <!-- Event Handling Section -->
+        <section class="event-handling">
+            <h2>1. Event Handling 🎈</h2>
+            <button id="clickButton">Click Me!</button>
+            <button id="hoverButton">Hover Over Me!</button>
+            <input type="text" id="keypressInput" placeholder="Type something..." />
+        </section>
+
+        <!-- Interactive Elements Section -->
+        <section class="interactive-elements">
+            <h2>2. Interactive Elements 🎮</h2>
+
+            <!-- Button to change text -->
+            <button id="changeTextButton">Change My Text</button>
+
+            <!-- Simple Image Gallery -->
+            <div class="gallery">
+                <img id="galleryImage" src="https://via.placeholder.com/400x200" alt="Gallery Image">
+                <div class="gallery-controls">
+                    <button id="prevImage">Previous</button>
+                    <button id="nextImage">Next</button>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn" data-tab="1">Tab 1</button>
+                <button class="tab-btn" data-tab="2">Tab 2</button>
+                <button class="tab-btn" data-tab="3">Tab 3</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab" id="tab-1">This is Tab 1 content!</div>
+                <div class="tab" id="tab-2" style="display:none;">This is Tab 2 content!</div>
+                <div class="tab" id="tab-3" style="display:none;">This is Tab 3 content!</div>
+            </div>
+
+        </section>
+
+        <!-- Form Validation Section -->
+        <section class="form-validation">
+            <h2>3. Form Validation 📋✅</h2>
+            <form id="signupForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div id="formFeedback"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

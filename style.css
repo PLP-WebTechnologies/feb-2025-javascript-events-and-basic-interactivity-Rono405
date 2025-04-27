@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fc;
+}
+
+.header {
+    background: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #20c997;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #17a2b8;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery-controls {
+    margin-top: 10px;
+}
+
+.tab-btn {
+    background: #007bff;
+    margin: 5px;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+#formFeedback {
+    margin-top: 15px;
+    font-weight: bold;
+}
